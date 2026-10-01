@@ -1,8 +1,10 @@
-# ApkeSU Theme Store
+# SterSU Theme Store
 
-This repository is the standalone backend for the ApkeSU cloud theme store. It owns the public catalog, creator registry, review Issues, moderation workflows, release publishing, and download statistics. The Android Manager consumes these files remotely and keeps bundled/cache fallbacks for offline use.
+This repository is the standalone backend for the SterSU cloud theme store. It owns the public catalog, creator registry, review Issues, moderation workflows, release publishing, and download statistics. The Android Manager consumes these files remotely and keeps bundled/cache fallbacks for offline use.
 
 The cloud store is a signed-by-hash catalog hosted in this repository. Theme packages are kept in GitHub Releases so large binary files do not inflate Git history.
+
+> Recovery status (2026-10-01): the interface-style catalog and all 27 `.ksstyle` packages are restored. The previous cloud-theme Release assets were not present in the local backup and their old URLs return 404, so the cloud-theme catalog is intentionally empty until maintainers or creators republish verified `.kstheme` files.
 
 ## Trust model
 
@@ -28,9 +30,9 @@ Run **Moderate cloud theme creators and submissions** once with `workflow_dispat
 
 ## Publishing a theme as an approved creator
 
-1. In Creator Center, use **Create cloud-safe package from current theme**, or select any local file up to 500 MiB. The picker does not restrict the original filename, extension, or MIME type, but the bytes must contain a valid cloud-safe ApkeSU theme package. The Manager copies and validates one immutable snapshot, then computes its exact byte count and SHA-256. Device storage and GitHub Release limits still apply.
+1. In Creator Center, use **Create cloud-safe package from current theme**, or select any local file up to 500 MiB. The picker does not restrict the original filename, extension, or MIME type, but the bytes must contain a valid cloud-safe SterSU theme package. The Manager copies and validates one immutable snapshot, then computes its exact byte count and SHA-256. Device storage and GitHub Release limits still apply.
 2. Export the validated snapshot as a standard `.kstheme` file and upload those exact bytes to a public GitHub Release under the approved creator's GitHub account. Paste the `.kstheme` Release URL into Creator Center. The app and moderation workflow reject package URLs owned by another account.
-3. Add screenshots when available, plus the license, compatibility range, version, and an existing or custom category. The cover is optional: the first screenshot is used when present, otherwise ApkeSU supplies its default cover.
+3. Add screenshots when available, plus the license, compatibility range, version, and an existing or custom category. The cover is optional: the first screenshot is used when present, otherwise SterSU supplies its default cover.
 4. Run remote verification. The Manager downloads the Release asset and requires its byte count and SHA-256 to match the selected local package.
 5. Submit the generated GitHub Issue. The Issue author must be the approved creator recorded in the manifest.
 6. `fixz232` reviews the visible metadata and adds `theme-approved` only when publication is allowed.

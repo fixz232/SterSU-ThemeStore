@@ -59,7 +59,7 @@ THEME_REQUIRED_KEYS = THEME_KEYS - {"coverUrl"}
 AUTHOR_KEYS = {"github", "name", "profileUrl", "avatarUrl", "bio"}
 CATEGORY_KEYS = {"id", "name"}
 DEFAULT_COVER_URL = (
-    "https://raw.githubusercontent.com/fixz232/ApkeSU-ThemeStore/main/"
+    "https://raw.githubusercontent.com/fixz232/SterSU-ThemeStore/main/"
     "theme-store/assets/default-cover.png"
 )
 

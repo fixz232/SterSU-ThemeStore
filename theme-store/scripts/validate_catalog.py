@@ -65,7 +65,7 @@ def is_standalone_repository_migration(old_url: object, new_url: object) -> bool
         and len(new_parts) == 7
         and old_parts[1:5] == ["fixz232", "ApkeSU", "releases", "download"]
         and new_parts[1:5]
-        == ["fixz232", "ApkeSU-ThemeStore", "releases", "download"]
+        == ["fixz232", "SterSU-ThemeStore", "releases", "download"]
         and old_parts[5:] == new_parts[5:]
         and all(old_parts[5:])
     )

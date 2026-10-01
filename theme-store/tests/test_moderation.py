@@ -348,7 +348,7 @@ class ModerationTest(unittest.TestCase):
             "themes": [],
         }
         submission = parse_manifest(json.dumps(self.valid_manifest()), "alice-theme")
-        tag, asset = update_catalog(catalog, submission, "fixz232/ApkeSU-ThemeStore", 100)
+        tag, asset = update_catalog(catalog, submission, "fixz232/SterSU-ThemeStore", 100)
 
         self.assertEqual("theme-aurora-night-v1", tag)
         self.assertEqual("aurora-night-v1.kstheme", asset)
@@ -366,7 +366,7 @@ class ModerationTest(unittest.TestCase):
         submission = parse_manifest(json.dumps(manifest), "mallory-theme")
 
         with self.assertRaises(ValidationFailure):
-            update_catalog(catalog, submission, "fixz232/ApkeSU-ThemeStore", 200)
+            update_catalog(catalog, submission, "fixz232/SterSU-ThemeStore", 200)
 
         self.assertEqual(before, catalog)
 
@@ -377,7 +377,7 @@ class ModerationTest(unittest.TestCase):
         submission = parse_manifest(json.dumps(manifest), "alice-theme")
 
         with self.assertRaises(ValidationFailure):
-            update_catalog(catalog, submission, "fixz232/ApkeSU-ThemeStore", 200)
+            update_catalog(catalog, submission, "fixz232/SterSU-ThemeStore", 200)
 
     def test_catalog_rejects_duplicate_category_name_with_new_id(self) -> None:
         catalog = self.catalog_with_existing_theme()
@@ -390,7 +390,7 @@ class ModerationTest(unittest.TestCase):
         submission = parse_manifest(json.dumps(manifest), "alice-theme")
 
         with self.assertRaises(ValidationFailure):
-            update_catalog(catalog, submission, "fixz232/ApkeSU-ThemeStore", 200)
+            update_catalog(catalog, submission, "fixz232/SterSU-ThemeStore", 200)
 
         self.assertEqual(before, catalog)
 
@@ -399,7 +399,7 @@ class ModerationTest(unittest.TestCase):
         before = json.loads(json.dumps(catalog))
         submission = parse_manifest(json.dumps(self.valid_manifest()), "alice-theme")
 
-        update_catalog(catalog, submission, "fixz232/ApkeSU-ThemeStore", 200)
+        update_catalog(catalog, submission, "fixz232/SterSU-ThemeStore", 200)
 
         self.assertEqual(before, catalog)
 
@@ -408,7 +408,7 @@ class ModerationTest(unittest.TestCase):
         previous = json.loads(json.dumps(current))
         previous["themes"][0]["downloadUrl"] = previous["themes"][0][
             "downloadUrl"
-        ].replace("/ApkeSU-ThemeStore/", "/ApkeSU/")
+        ].replace("/SterSU-ThemeStore/", "/ApkeSU/")
 
         validate_semantics(current, previous)
 
@@ -417,7 +417,7 @@ class ModerationTest(unittest.TestCase):
         current = json.loads(json.dumps(previous))
         current["themes"][0]["downloadUrl"] = current["themes"][0][
             "downloadUrl"
-        ].replace("/ApkeSU-ThemeStore/", "/AnotherStore/")
+        ].replace("/SterSU-ThemeStore/", "/AnotherStore/")
 
         with self.assertRaises(ValidationFailure):
             validate_semantics(current, previous)
@@ -533,7 +533,7 @@ class ModerationTest(unittest.TestCase):
             "themes": [],
         }
         submission = parse_manifest(json.dumps(self.valid_manifest()), "alice-theme")
-        update_catalog(catalog, submission, "fixz232/ApkeSU-ThemeStore", 100)
+        update_catalog(catalog, submission, "fixz232/SterSU-ThemeStore", 100)
         return catalog
 
     def valid_manifest(self) -> dict:
