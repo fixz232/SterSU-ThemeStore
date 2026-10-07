@@ -4,7 +4,7 @@ This repository is the standalone backend for the SterSU cloud theme store. It o
 
 The cloud store is a signed-by-hash catalog hosted in this repository. Theme packages are kept in GitHub Releases so large binary files do not inflate Git history.
 
-> Recovery status (2026-10-01): the interface-style catalog and all 27 `.ksstyle` packages are restored. The previous cloud-theme Release assets were not present in the local backup and their old URLs return 404, so the cloud-theme catalog is intentionally empty until maintainers or creators republish verified `.kstheme` files.
+> Recovery status (2026-10-07): the interface-style catalog contains 29 verified entries, including Windows Fluent and Sidebar widgets. The previous cloud-theme Release assets were not present in the local backup and their old URLs returned 404 during recovery, so the cloud-theme catalog remains empty until maintainers or creators republish verified `.kstheme` files.
 
 ## Trust model
 
