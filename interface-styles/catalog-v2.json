@@ -1,19 +1,19 @@
 {
   "schema": "io.github.fixz.apkesu.interface-style-catalog",
   "version": 3,
-  "generatedAt": 1791377383297,
+  "generatedAt": 1791514128589,
   "styles": [
     {
       "id": "liquid-glass",
       "name": "毛玻璃 / Frosted glass",
-      "summary": "半透明毛玻璃界面",
+      "summary": "清透毛玻璃：轻描边、柔和冷白与深蓝灰配色，减少灰色叠层和折射；完整卡片与导航优化需新版管理器。",
       "engine": "liquid_glass",
       "variant": null,
       "version": 3,
-      "downloadUrl": "https://raw.githubusercontent.com/fixz232/SterSU-ThemeStore/main/interface-styles/packages/liquid-glass.ksstyle",
-      "sha256": "49b1bbac8b486ca47cf3d1b7fecc3d7e8659a3a2255e45a40fc3694981b20b4c",
-      "sizeBytes": 1033,
-      "accent": 4283987338
+      "downloadUrl": "https://raw.githubusercontent.com/fixz232/SterSU-ThemeStore/main/interface-styles/packages/liquid-glass-clear-20261009.ksstyle",
+      "sha256": "a6dd2ece892dfffcb114340e0c2928a0e99fb687ba372068334d3f85560b36cb",
+      "sizeBytes": 1020,
+      "accent": 4282147976
     },
     {
       "id": "season-spring",
