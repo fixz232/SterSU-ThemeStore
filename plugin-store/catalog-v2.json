@@ -1,7 +1,7 @@
 {
   "schema": "io.github.fixz.apkesu.plugin-catalog",
   "version": 1,
-  "generatedAt": 1791352046531,
+  "generatedAt": 1791505893759,
   "plugins": [
     {
       "id": "rescue-protection",
@@ -19,8 +19,8 @@
       "minManagerVersionCode": 32800,
       "minKsudVersionCode": 32800,
       "downloadUrl": "https://raw.githubusercontent.com/fixz232/SterSU-ThemeStore/main/plugin-store/packages/rescue-protection.ksplugin",
-      "sha256": "6fde0d6b81156f172630ca7f0929a33cc36ef160a46cee2d5758c8c209bea648",
-      "sizeBytes": 816
+      "sha256": "2318da46031abd4867c5af81d363489412d583ec26ad012e529cba42a233c2e8",
+      "sizeBytes": 808
     },
     {
       "id": "image-tools",
@@ -38,8 +38,8 @@
       "minManagerVersionCode": 32800,
       "minKsudVersionCode": 32800,
       "downloadUrl": "https://raw.githubusercontent.com/fixz232/SterSU-ThemeStore/main/plugin-store/packages/image-tools.ksplugin",
-      "sha256": "a21b43bbe8d9c058f13d707a47b9eccd752a14543cc051b626f4e97f3f1f3a6b",
-      "sizeBytes": 752
+      "sha256": "7151153c2c89dfb612a89463f2172a50dbe492fab8bfe2eeda39f595dfc3c883",
+      "sizeBytes": 744
     },
     {
       "id": "cpu-spoof",
@@ -57,8 +57,8 @@
       "minManagerVersionCode": 32800,
       "minKsudVersionCode": 32800,
       "downloadUrl": "https://raw.githubusercontent.com/fixz232/SterSU-ThemeStore/main/plugin-store/packages/cpu-spoof.ksplugin",
-      "sha256": "8f2855ae972d0116ce2c442be02c49e34b50e81a5ac03d9f36c5794ee7d60f0f",
-      "sizeBytes": 724
+      "sha256": "ada1b934d2fea16d8d2a17c3d94cd65bfd111fb014c262b6faf48a40e62583b0",
+      "sizeBytes": 716
     },
     {
       "id": "device-identity",
@@ -76,8 +76,8 @@
       "minManagerVersionCode": 32800,
       "minKsudVersionCode": 32800,
       "downloadUrl": "https://raw.githubusercontent.com/fixz232/SterSU-ThemeStore/main/plugin-store/packages/device-identity.ksplugin",
-      "sha256": "cf07342459fdcd470ef5fcf337d162be718590e24d46e62fbbc7219994999fd4",
-      "sizeBytes": 753
+      "sha256": "69e52fcedb8d07ec5beae8236d1425365506d521cb36949e58096fdba1a0eb64",
+      "sizeBytes": 745
     },
     {
       "id": "graphics-renderer",
@@ -95,8 +95,8 @@
       "minManagerVersionCode": 32800,
       "minKsudVersionCode": 32800,
       "downloadUrl": "https://raw.githubusercontent.com/fixz232/SterSU-ThemeStore/main/plugin-store/packages/graphics-renderer.ksplugin",
-      "sha256": "d19c1952a22aa84ac1e931a14fa26b077ca0a2164f693d2d864ab8d902554813",
-      "sizeBytes": 771
+      "sha256": "6ad3a574f996c3f4cc6bb2978099c610e6eb0fabdd391a2b1dee5c1657c986fe",
+      "sizeBytes": 763
     },
     {
       "id": "ai-chat",
@@ -114,8 +114,8 @@
       "minManagerVersionCode": 32800,
       "minKsudVersionCode": 32800,
       "downloadUrl": "https://raw.githubusercontent.com/fixz232/SterSU-ThemeStore/main/plugin-store/packages/ai-chat.ksplugin",
-      "sha256": "ddcd079c5430437ddbc2b8bf42c9f131d8933775320fe7746e23a0aa0f91a6b3",
-      "sizeBytes": 767
+      "sha256": "5f94fb0e10a4fe2e872c42a57ded7190794f4844096de940235f23c29bada2cd",
+      "sizeBytes": 759
     },
     {
       "id": "remote-management-suite",
@@ -135,8 +135,8 @@
       "minManagerVersionCode": 32800,
       "minKsudVersionCode": 32800,
       "downloadUrl": "https://raw.githubusercontent.com/fixz232/SterSU-ThemeStore/main/plugin-store/packages/remote-management-suite.ksplugin",
-      "sha256": "235f67f75abc107c7d4bcd25d1603ee7582e51f532b0db88c81c86dd946778bd",
-      "sizeBytes": 1015
+      "sha256": "ab39386c4380356dfa3bf5ca7ef3239819701558af6ae9dde07ec0de2e8541f8",
+      "sizeBytes": 1005
     },
     {
       "id": "app-id-manager",
@@ -154,8 +154,8 @@
       "minManagerVersionCode": 32800,
       "minKsudVersionCode": 32800,
       "downloadUrl": "https://raw.githubusercontent.com/fixz232/SterSU-ThemeStore/main/plugin-store/packages/app-id-manager.ksplugin",
-      "sha256": "bc6114851e53546486bca7de4b817fa3ea79acad613a10e5731ffc72e592a4d1",
-      "sizeBytes": 736
+      "sha256": "01d73589394261bde65a6b9773c39d054f74e90531cbfb657d44fbac1380f442",
+      "sizeBytes": 728
     },
     {
       "id": "app-freeze",
@@ -173,8 +173,8 @@
       "minManagerVersionCode": 32800,
       "minKsudVersionCode": 32800,
       "downloadUrl": "https://raw.githubusercontent.com/fixz232/SterSU-ThemeStore/main/plugin-store/packages/app-freeze.ksplugin",
-      "sha256": "415cb075a234f7e3e7ee97bdc90486d2ff062c75dfff57a960e580fc6ce3b149",
-      "sizeBytes": 724
+      "sha256": "0bb5e9c9ec9affaf7f72ca94d9b9e5a7b111b9f6d0f77b98fc843a8439175c7c",
+      "sizeBytes": 716
     },
     {
       "id": "pathmask-lkm",
@@ -193,8 +193,8 @@
       "minManagerVersionCode": 33000,
       "minKsudVersionCode": 33000,
       "downloadUrl": "https://raw.githubusercontent.com/fixz232/SterSU-ThemeStore/main/plugin-store/packages/pathmask-lkm.ksplugin",
-      "sha256": "64de504f4b2c65d77c655340f82c675621b92c23f0a69913ff4061610b8c036d",
-      "sizeBytes": 1277
+      "sha256": "e7060557c01f34a277ad7272039f4f740a9606cf571b5e0faab809caf9a14e89",
+      "sizeBytes": 1281
     }
   ]
 }
